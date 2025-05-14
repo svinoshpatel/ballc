@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include "machine.h"
 
-class FarmEquipment {
+class FarmEquipment : public Machine {
 public:
     FarmEquipment();                                // Конструктор за замовчуванням
     FarmEquipment(int power, std::string purpose);  // Конструктор з параметрами

@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include "machine.h"
 
-class Vehicle {
+class Vehicle: public Machine {
 public:
     Vehicle();                              // Конструктор за замовчуванням
     Vehicle(int speed, std::string fuel);   // Конструктор з параметрами
